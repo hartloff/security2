@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Security 2</title>
+    <script src="AJAXFunctions.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="jumbotron">
+        <h1>Security 2</h1>
+    </div>
+    <br/>
+
+
+    <div class="well">
+        <form>
+            <input class="form-control" id="Comment" placeholder="Comment"><br/>
+            <h3><a href="#" onclick="addComment(); return false;">
+                <span class="label label-primary">Submit</span>
+            </a></h3>
+        </form>
+    </div>
+
+
+    <br/><br/>
+
+
+    <div class="well">
+        <h3><a href="#" onclick="getAllComments(); return false;"><span
+                class="label label-primary">Refresh Comments</span></a></h3>
+        <br/>
+
+        <div id="allComments"></div>
+    </div>
+
+
+    <br/><br/>
+
+
+</div>
+
+</body>
+</html>
+
